@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 { 
-    float a,b,c,d,e;
+    float a,b,c,d,e;  
     
     cout << "Enter account number (-1 to end): ";
     cin >> a;
