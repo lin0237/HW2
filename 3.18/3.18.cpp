@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip> 
 using namespace std;
 
 int main()
@@ -7,7 +8,7 @@ int main()
 	
 	cout << "Enter sales in dollars (-1 to end): ";
 	cin >> a;
-	cout << "Salary is: " << 200+a*0.09 <<endl;
+	cout << "Salary is: " << fixed << setprecision(2) << 200+a*0.09 <<endl;
 	
 	return 0;
 }
